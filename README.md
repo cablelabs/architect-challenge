@@ -53,6 +53,8 @@ Your API design should be contained in a single Swagger file. The file should be
 
 Again, use whatever editor or IDE you feel most comfortable in.
 
+The Swagger file you deliver should be fully compliante with [Swagger Version 2.0](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md).
+
 ## Deliverables
 
 1. The project that has your complete solution.
