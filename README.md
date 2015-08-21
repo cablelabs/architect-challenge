@@ -11,7 +11,7 @@ A challenge for architects that want to join our team. In order to be considered
     git clone https://github.com/<your-name>/architect-challenge.git
     ````
 
-3. Complete the architect chellenge described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure the `git commit` your work as you go (see [Guidelines](#guidelines))
+3. Complete the architect chellenge described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure to `git commit` your work as you go (see [Guidelines](#guidelines))
 
 4. `git push` your design and code to your forked repository on GitHub.
 
@@ -21,7 +21,7 @@ A challenge for architects that want to join our team. In order to be considered
 
 ### 1. Analysis and Information Model in UML
 
-Use the sample dataset provided in [input/lit-building-list-example.xls](input/lit-building-list-example.xls) to design an information model for a Lit Building List. The information model should be designed using a UML class diagram and only needs to care for the the entities and their attributes and relationships represented in the sample dataset.
+Use the sample datasets provided in [input](input) to design an information model for a Lit Building List. The information model should be designed using a UML class diagram and only needs to care for the the entities and their attributes and relationships collectively represented in the sample datasets.
 
 Document any imporant thoughts or notes from your analysis and information model design in [design/design.md](design/design.md). You documentation should include:
 
