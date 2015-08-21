@@ -23,17 +23,17 @@ A challenge for architects that want to join our team. In order to be considered
 
 Use the sample datasets provided in [input](input) to design an information model for a Lit Building List. The information model should be designed using a UML class diagram and only needs to care for the the entities and their attributes and relationships collectively represented in the sample datasets.
 
-Document any imporant thoughts or notes from your analysis and information model design in [design/design.md](design/design.md). You documentation should include:
+Document any imporant thoughts or notes from your analysis and information model design in [design/design.md](design/design.md). Yous documentation should include:
 
-1. A list of entites you have identified from the sample dataset.
+1. A list of entites you have identified from the sample datasets.
 2. A view of the UML class diagram you've created.
 3. Anything else you think is important for undersanding your information model design.
 
 Your documentation should be clean, clear, and should look really ncie. You may want to read up on [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) to accomplish this. 
 
-> You may use any modeling tool you want for creating the UML class diagram. If you would like, you can use one of our floaitng licenses for [Visual Paradigm](). Here's how to get started:
+> You may use any modeling tool you want for creating the UML class diagram. If you would like, you can use one of our floaitng licenses for [Visual Paradigm](http://www.visual-paradigm.com/). Here's how to get started:
 > 
-> 1. Download and install [Visual Paradign 12.0](http://www.visual-paradigm.com/download/archive/)
+> 1. Download and install [Visual Paradign **12.0**](http://www.visual-paradigm.com/download/archive/)
 > 2. Select Perpetual License, then select Floating License.
 > 3. Enter Host: opsframework.services.cablelabs.com
 > 4. Enter Port: 1999
@@ -75,7 +75,7 @@ Please deliver your solution to a new `src` directory and provide detailed instr
 
 1. Your solution should be self explanatory.
 
-2. Every you deliver should be clean, clear, and should look really ncie.
+2. Everything you deliver should be clean, clear, and should look really ncie.
 
 3. **Make frequent commits to Git (local repo).**
 
