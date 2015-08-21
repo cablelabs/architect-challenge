@@ -21,7 +21,7 @@ A challenge for architects that want to join our team. In order to be considered
 
 ### 1. Analysis and Information Model in UML
 
-Use the sample dataset provided in [input/lit-building-list-example.xls](input/lit-building-list-example.xls) to design an information model for a Lit Building List. The information model should be designed using a UML class diagram and only needs to care for the the entities and their attributes and relationships represented in the sample dataset.
+Use the sample datasets provided in [input](input) to design an information model for a Lit Building List. The information model should be designed using a UML class diagram and only needs to care for the the entities and their attributes and relationships collectively represented in the sample datasets.
 
 Document any imporant thoughts or notes from your analysis and information model design in [design/design.md](design/design.md). You documentation should include:
 
