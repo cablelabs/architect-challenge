@@ -5,9 +5,11 @@ A challenge for architects that want to join our team. In order to be considered
 
 1. Fork the [architect-challenge](https://github.com/cablelabs/architect-challenge) repository.
 2. Clone your fork:
-  ````
-git clone https://github.com/<your-name>/architect-challenge.git
-  ````
+
+    ````
+    git clone https://github.com/<your-name>/architect-challenge.git
+    ````
+
 3. Complete the architect task described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure the `git commit` your work as you go (see [Guidelines](#guidelines))
 4. `git push` your design and code to your forked repository on GitHub.
 5. Send us a [pull request](https://github.com/cablelabs/architect-challenge/compare). We will review your design and code and get back to you.
@@ -77,4 +79,4 @@ Please deliver your solution to a new `src` directory and provide detailed instr
 
 Happy architecting!
 
-PS - If you're having trouble with Git, please reference this http://git-scm.com/
+PS - If you're having trouble with Git, please reference the [Pro Git book](http://git-scm.com/)
