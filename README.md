@@ -1,16 +1,17 @@
 # architect-challenge
 A challenge for architects that want to join our team. In order to be considered for an architect position, you must complete the following architect challenge.
 
-## Task
+## Challenge Overview
 
 1. Fork the [architect-challenge](https://github.com/cablelabs/architect-challenge) repository.
+
 2. Clone your fork:
 
     ````
     git clone https://github.com/<your-name>/architect-challenge.git
     ````
 
-3. Complete the architect task described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure the `git commit` your work as you go (see [Guidelines](#guidelines))
+3. Complete the architect chellenge described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure the `git commit` your work as you go (see [Guidelines](#guidelines))
 
 4. `git push` your design and code to your forked repository on GitHub.
 
@@ -55,8 +56,11 @@ Again, use whatever editor or IDE you feel most comfortable in.
 ## Deliverables
 
 1. The project that has your complete solution.
+
 3. Design notes and any additional documentation for your analysis and design in [design/design.md](design/design.md)
+
 2. Information model design as a UML class diagram in the [design](design) directory (png or pdf file).
+
 4. API design as a single Swagger file in the [api-docs](api-docs) directory. Your Swagger file should either included or reference your data model design in JSON Schema.
 
 ## Bonus
@@ -70,14 +74,18 @@ Please deliver your solution to a new `src` directory and provide detailed instr
 ## Guidelines
 
 1. Your solution should be self explanatory.
+
 2. Every you deliver should be clean, clear, and should look really ncie.
-5. **Make frequent commits to Git (local repo).**
-6. While the solution you provide matters, how you arrive at it (commits, deisgn style, coding style, etc.) is also very important.
+
+3. **Make frequent commits to Git (local repo).**
+
+4. While the solution you provide matters, how you arrive at it (commits, deisgn style, coding style, etc.) is also very important.
 
 ## On Complete
 
 1. `git commit` and `git push` your design and code to your forked repository on GitHub.
-5. Send us a [pull request](https://github.com/cablelabs/architect-challenge/compare). We will review your design and code and get back to you.
+
+2. Send us a [pull request](https://github.com/cablelabs/architect-challenge/compare). We will review your design and code and get back to you.
 
 Happy architecting!
 
