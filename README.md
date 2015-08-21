@@ -4,11 +4,11 @@ A challenge for architects that want to join our team. In order to be considered
 ## Task
 
 1. Fork the [architect-challenge](https://github.com/cablelabs/architect-challenge) repository.
-2. Clone your fork
+2. Clone your fork:
 ````
 git clone https://github.com/<your-name>/architect-challenge.git
 ````
-3. Complete the architect task described below (please see [Architect Task], [Deliverables], [Guidelines], and [On Complete] sections). Be sure the `git commit` your work as you go (see [Guidelines]
+3. Complete the architect task described below (please see [Architect Task], [Deliverables], [Guidelines], and [On Complete] sections). Be sure the `git commit` your work as you go (see [Guidelines](#Guidelines))
 4. `git push` your design and code to your forked repository on GitHub.
 5. Send us a [pull request](https://github.com/cablelabs/architect-challenge/compare). We will review your design and code and get back to you.
 
