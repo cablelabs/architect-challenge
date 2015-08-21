@@ -1,3 +1,3 @@
-This is where your RESTful API design in Swagger will go. 
+The api-docs directory is where your RESTful API design in Swagger should go. 
 
-Please feel free to edit this file.
+*Please feel free to edit this file.*
