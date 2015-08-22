@@ -91,4 +91,4 @@ Please deliver your solution to a new `src` directory and provide detailed instr
 
 Happy architecting!
 
-PS - If you're having trouble with Git, please reference the [Pro Git book](http://git-scm.com/)
+PS - If you're having trouble with Git, please reference the [Pro Git book](http://git-scm.com/).
