@@ -31,7 +31,7 @@ Document any imporant thoughts or notes from your analysis and information model
 
 Your documentation should be clean, clear, and should look really nice. You may want to read up on [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) to accomplish this. 
 
-> You may use any modeling tool you want for creating the UML class diagram. If you would like, you can use one of our floating licenses for [Visual Paradigm](http://www.visual-paradigm.com/). Here's how to get started:
+> NOTE: You may use any modeling tool you want for creating the UML class diagram. If you would like, you can use one of our floating licenses for [Visual Paradigm](http://www.visual-paradigm.com/). Here's how to get started:
 > 
 > 1. Download and install [Visual Paradign **12.0**](http://www.visual-paradigm.com/download/archive/)
 > 2. Select Perpetual License, then select Floating License.
@@ -49,7 +49,7 @@ You may include additional data model notes in [design/design.md](design/design.
 
 Design a RESTful API using [Swagger](http://swagger.io/) that will allow basic `CRUD` operations to be performed on the Lit Build List you have designed.
 
-Your API design should be contained in a single Swagger file. The file should be called `swagger-file.json' and should be included in the [api-docs](api-docs) directory. You may either reference the JSON Schema(s) you previously designed or include them directly in the Swagger file.
+Your API design should be contained in a single Swagger file. The file should be called `swagger-file.json` and should be included in the [api-docs](api-docs) directory. You may either reference the JSON Schema(s) you previously designed or include them directly in the Swagger file.
 
 Again, use whatever editor or IDE you feel most comfortable in.
 
