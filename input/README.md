@@ -1,6 +1,11 @@
 # Sample Data Sets
 
-Please see the lit-building-list-sample csv files which contain the sample datasets for your challenge. The sample data sets have also been included below for your convenience.
+Please see the lit-building-list-sample csv files which contain the sample datasets for your challenge. 
+
+1. [Sample 1](lit-building-list-sample1.csv)
+2. [Sample 2](lit-building-list-sample2.csv)
+
+The sample data sets have also been included below for your convenience.
 
 ###Lit Building List Sample 1
 
@@ -16,3 +21,7 @@ Please see the lit-building-list-sample csv files which contain the sample datas
 | 8 | PROVIDER CONNECTICUT | CC30 | NEW ENGLAND | 13 HIGHLAND AVE | 13 | | HIGHLAND | AVE | | | CHESHIRE | CT | 6410 | CHSHCT01 | 51.502478 | -62.900484 | 1356 | 4745 | 920 | Y | Y | Y | Y | Y | COLO |
 | 9 | PROVIDER FLORIDA | CC30 | CENTRAL FLORIDA | 161 RESEARCH CIR | 161 | | RESEARCH | CIR | | | ALACHUA | FL | 32615 | ALCHFL16 | 39.782695 | -72.471673 | 1338 | 7819 | 452 | Y | ICB | Y | Y | Y | CUSTOMER |
 | 10 | PROVIDER FLORIDA | CC30 | CENTRAL FLORIDA | 761 TECHNOLOGY AVE | 761 | | TECHNOLOGY | AVE | | | ALACHUA | FL | 32615 | ALCHFLAZ | 39.781641 | -72.475283 | 1338 | 7820 | 452 | Y | ICB | Y | Y | Y | CUSTOMER |
+
+###Lit Building List Sample 2
+
+TBD
