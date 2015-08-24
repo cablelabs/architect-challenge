@@ -2,8 +2,8 @@
 
 Please see the lit-building-list-sample csv files which contain the sample datasets for your challenge. 
 
-1. [Sample 1](lit-building-list-sample1.csv)
-2. [Sample 2](lit-building-list-sample2.csv)
+ - [Sample 1](lit-building-list-sample1.csv)
+ - [Sample 2](lit-building-list-sample2.csv)
 
 The sample data sets have also been included below for your convenience.
 
