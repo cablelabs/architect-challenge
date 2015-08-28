@@ -37,7 +37,7 @@ Your documentation should be clean, clear, and should look really nice. You may 
 > 2. Select Perpetual License, then select Floating License.
 > 3. Enter Host: opsframework.services.cablelabs.com
 > 4. Enter Port: 1999
-> 5. Enter Access code: 1234
+> 5. Enter Access code: challenge
 
 ### 2. Data Model in JSON Schema
 
