@@ -1,0 +1,189 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.0.0",
+        "title": "Lit Building",
+        "description": "APIs for Lit Building"
+    },
+    "host": "api.litBuilding.com",
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        "/Building": {
+            "delete": {
+                "description": "Delete `Lit Building` objects.\n",
+                "parameters": [
+                    {
+                        "name": "refCode",
+                        "in": "query",
+                        "description": "refCode of the Lit Building.",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "LitBuilding"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An object of building",
+                        "schema": {
+                            "$ref": "#/definitions/Building"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Building": {
+            "properties": {
+                "RefCode": {
+                    "type": "number",
+                    "description": "Unique identifier representing a building."
+                },
+                "BuildingType": {
+                    "type": "string",
+                    "description": "Type of the building."
+                },
+                "BuildingAddress": {
+                    "$ref": "#/definitions/Address",
+                    "description": "Address object for building adddress."
+                },
+                "ENNI": {
+                    "$ref": "#/definitions/ENNINode",
+                    "description": "ENNI Node information with LATA information."
+                }
+            }
+        },
+        "Address": {
+            "properties": {
+                "StreetNumber": {
+                    "type": "number",
+                    "description": "Number of the building."
+                },
+                "StreetName": {
+                    "type": "string",
+                    "description": "Name of the street."
+                },
+                "City": {
+                    "type": "string",
+                    "description": "Name of the City."
+                },
+                "State": {
+                    "$ref": "#/definitions/State",
+                    "description": "State information of the address."
+                },
+                "ZIPCode": {
+                    "$ref": "#/definitions/ZIP",
+                    "description": "Zip code for the address."
+                }
+            }
+        },
+        "ENNINode": {
+            "properties": {
+                "NodeLocation": {
+                    "$ref": "#/definitions/Address",
+                    "description": "Address object for ENNI Node."
+                },
+                "Bandwidth": {
+                    "$ref": "#/definitions/SwitchBandwidth",
+                    "description": "SwitchBandwidth object for bandwidth attribute of ENNI Node."
+                },
+                "LATAInfo": {
+                    "$ref": "#/definitions/LATA",
+                    "description": "LATA object for LATA information of ENNI Node."
+                }
+            }
+        },
+        "State": {
+            "properties": {
+                "Code": {
+                    "type": "string",
+                    "description": "State code."
+                },
+                "Name": {
+                    "type": "string",
+                    "description": "Name of the State."
+                }
+            }
+        },
+        "ZIP": {
+            "properties": {
+                "ZIPCode": {
+                    "type": "integer",
+                    "description": "5 digit zip code of the address."
+                },
+                "ZIP4Code": {
+                    "type": "integer",
+                    "description": "4 digit additional zip code of the address."
+                }
+            }
+        },
+        "SwitchBandwidth": {
+            "properties": {
+                "Minimum": {
+                    "$ref": "#/definitions/Bandwidth",
+                    "description": "Minimum bandwidth of ENNI Node."
+                },
+                "Maximum": {
+                    "$ref": "#/definitions/Bandwidth",
+                    "description": "Maximum bandwidth of ENNI Node."
+                }
+            }
+        },
+        "LATA": {
+            "properties": {
+                "Code": {
+                    "type": "integer",
+                    "description": "Unique Code for LATA."
+                },
+                "Name": {
+                    "type": "string",
+                    "description": "Name of the LATA."
+                },
+                "Lattitude": {
+                    "type": "integer",
+                    "description": "Lattitude of the LATA."
+                },
+                "Longitude": {
+                    "type": "integer",
+                    "description": "Longitude of the LATA."
+                }
+            }
+        },
+        "Bandwidth": {
+            "properties": {
+                "Speed": {
+                    "type": "integer",
+                    "description": "Bandwidth speed."
+                },
+                "SpeedType": {
+                    "type": "string",
+                    "description": "Type of the speed. E.g. MB, GB, etc."
+                }
+            }
+        },
+        "Error": {
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
