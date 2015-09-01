@@ -90,5 +90,6 @@ Topology Classes Names:
  - AccessServices
  - AccessCustomerTerminalLocation
 
-Location UML Model 
+[Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationModel-01.jpeg)
+[Topology UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-TopologyModel-01.jpeg)
 
