@@ -54,7 +54,7 @@ ENNI-Protection-0310-v03.pdf]( http://www.ieee802.org/1/files/public/docs2010/ne
 
 [ icsc_code](https://www22.verizon.com/wholesale/attachments/apphome_releases/icsc_code_job_aide.pdf ) 
 
-Class Name 
+Location Classes Names: 
 
  - GeographicCoordinate 
  - Shape 
