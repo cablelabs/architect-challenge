@@ -1,5 +1,3 @@
-<p><markdown>
-#Markdown Live Editor#
 Initial modelling of domain using the two lit buildings csv files Analysis process: 
 
 - Create packages for domain classes and drawings - 
@@ -93,4 +91,4 @@ Topology Classes Names:
  - AccessCustomerTerminalLocation
 
 Location UML Model 
-</markdown></p>
+
