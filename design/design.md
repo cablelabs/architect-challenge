@@ -78,7 +78,7 @@ Location Classes Names:
  - ClliCode 
  - NetworkElementClliCode 
 
-Topology Classes Names:
+Topology Classes Names: 
 
  - NetworkElement
  - AggregationServicesRouter
@@ -101,3 +101,10 @@ Day 2
  - add any missing classes, attributes, behavior and relationships
  - Update model
  - create RESTful API
+
+Parsing document:
+ - External Network-Network Interface (E-NNI) OSPF-based Routing - 1.0 (Intra-Carrier) Implementation Agreement 
+ - OIF-ENNI-OSPF-01.0 
+
+Input source for ENNI INNI trasport domains, control domains, carrier networks, links and network elements
+
