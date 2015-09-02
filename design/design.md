@@ -127,3 +127,69 @@ Located OIF ENNI specifications, using these to create UML ENNI model
  - OIF_Carrier_WG_Requirements_on_Transport_Networks_in_SDN_Architectures_Sept2013.pdf
  - OIForum1.html
  - OIForum.html
+
+
+The network UML models that will support the ENNI and associated Control, Management and Transport plane include a large number of classes.
+OIF 4.4 discription of E-NNI Signaling 2.0
+ - The E-NNI Signaling 2.0 specification is a key stride towards the implementation of an open
+inter-domain signaling protocol that enables dynamic setup and release of various services. This
+activity supports the overall mission of the OIF.
+
+These would include but are not limited to:
+
+ - AGC                             Access Group Container (see [G.8080])
+ - ASON                           Automatically Switched Optical Network (see [G.8080])
+ - CC                                 Connection Controller (see [G.8080] and [G.7713])
+ - CCC                              Calling/Called Party Call Controller (see [G.8080])
+ - CI                                  Characteristic Information (see [G.805])
+ - CP                                 Connection Point (see [G.805])
+ - CTP                               Connection Termination Point (see [G.805])
+ - DCN                             Data Communications Network (see [G.7712])
+ - ECC                              Embedded Control Channels (see [G.7712])
+ - E-NNI                          External NNI (see [G.8080])
+ - eNNI-D                        The logical control plane entity that terminates E-NNI signaling in the downstream direction with respect to control plane initiation
+ - eNNI-U                        The logical control plane entity that terminates E-NNI signaling in the upstream direction with respect to control plane initiation
+ - ERO                              Explicit Route Object
+ - GMPLS                        Generalized MPLS
+ - I-NNI                            Internal NNI (see [G.8080])
+ - IP                                   Internet Protocol version 4 (IPv4) or Internet Protocol version 6 (IPv6)
+ - IPsec                             Internet Protocol Security (see [OIF-SEC] and [SecAdd])
+ - LC                                 Link Connection (see [G.805])
+ - LIH                               Logical Interface Handle
+ - MBB                              Make Before Break
+ - MCN                            Management Communications Network (see [G.7712])
+ - MPLS                            Multiprotocol Label Switching
+ - NCC                             Network Call Controller
+ - NE                                 Network Element
+ - NNI                              Network Node Interface
+ - Node ID                       Node Identifier (see [G.7715.1])
+ - OAM                            Operations And Maintenance
+ - OTN                             Optical Transport Network (see [G.709])
+ - PC                                 Protocol Controller (see [G.8080])
+ - RA                                 Routing Area (see [G.8080])
+ - RRO                              Record Route Object
+ - RSVP                            Resource Reservation Protocol (see [RFC2205])
+ - RSVP-TE                      RSVP Traffic Engineering (see [RFC3209])
+ - SC                                 Switched Connection service (see [G.8080])
+ - SC PC ID                      Signaling Controller Protocol Controller Identifier
+ - SCN                              Signaling Communications Network (see [G.7712])
+ - SDH                              Synchronous Digital Hierarchy (see [G.707])
+ - SNC                              Subnetwork Connection (see [G.805])
+ - SNP                              Subnetwork Point (see [G.8080])
+ - SNPP                            Subnetwork Point Pool (see [G.8080])
+ - SNPP Link                   Subnetwork Point Pool Link (see [G.8080])
+ - SONET                         Synchronous Optical Network (see [T1.105])
+ - SPC                               Soft Permanent Connection service (see [G.8080])
+ - TCP                               Termination Connection Point (see [G.805])
+ - TNA                             Transport Network Assigned (see [G.8080])
+ - TNE                              Transport Network Element (see [OIF-UNI-02.0])
+ - TRI                                Transport Resource Identifier (see [G.8080])
+ - TTP                               Trail Termination Point (see [G.805])
+ - UNI                              User Network Interface (see [OIF-UNI-020], [G.8080])
+ - VCAT                           Virtual Concatenation
+
+In addition there are RSVP messages used to manage the life cycle of connections that need to be modeled 
+
+Ok, in the weeds, modeling more than requested.
+Pulling back to limit the model to only the items on the two spreadsheets and limit the additonal classes to those required to create a coherent solution.
+
