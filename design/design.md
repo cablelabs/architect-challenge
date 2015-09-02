@@ -193,3 +193,12 @@ In addition there are RSVP messages used to manage the life cycle of connections
 Ok, in the weeds, modeling more than requested.
 Pulling back to limit the model to only the items on the two spreadsheets and limit the additonal classes to those required to create a coherent solution.
 
+Updated models, added updated UML drawings
+RESTful generation with VP next
+
+[Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationModel-02.jpeg)
+
+[Topology UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-TopologyModel-02.jpeg)
+
+[Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-ARC-SPModel-01.jpeg)
+
