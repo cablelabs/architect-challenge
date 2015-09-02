@@ -112,3 +112,18 @@ Additional documents:
 [TCF_UFB_Ethernet_Access_Service_Description_FINAL  Telecommunications Carriers Forum](http://www.tcf.org.nz/content/433bebfa-5dc8-4bf3-a408-5c43cf886c38.cmr)
 
 [Unlocking Ethernet Access and Backhaul with the EoX Gateway](http://www.fujitsu.com/us/Images/EoX_gateway_wp.pdf)
+
+
+Located OIF ENNI specifications, using these to create UML ENNI model
+[http://www.oiforum.com/public/documents/](http://www.oiforum.com/public/documents/)
+
+ - OIF_E-NNI_Sig_02.0.pdf
+ - OIF_SEP_03.2.pdf
+ - OIF-UNI-02.0-R2-RSVP.pdf
+ - OIF-ENNI-OSPF-02.1.pdf
+ - OIF-ENNI-RSVP-02.1.pdf
+ - OIF-ENNI-ML-AM-01.0.pdf
+ - OIForumDocumentLinks.html
+ - OIF_Carrier_WG_Requirements_on_Transport_Networks_in_SDN_Architectures_Sept2013.pdf
+ - OIForum1.html
+ - OIForum.html
