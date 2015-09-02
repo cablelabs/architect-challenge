@@ -202,3 +202,31 @@ RESTful generation with VP next
 
 [Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-ARC-SPModel-01.jpeg)
 
+Notes on csv files:
+
+sample2.csv:
+This file identifies an ENNI node, the assumption is that the other end of the switched ethernet connection is also an ENNI node at a Lit Building.  The address of the Lit building is in columns B, C, D, E and F.
+Column F is the address of the provider ENNI node.
+G is building type.
+H the address of the carrier/provider ENNI Node.
+I the min bandwidth of the switched ethernet connection
+J the max
+K the LATA code for the ENNI Node?
+L the LATA name for the ENNI Node?
+M & N the Lat & Long for the ENNI Node?
+
+sample1.cvs:
+Column B is the name of the Ethernet service provider, C is the ICSC data, based on a document from Verizon ICSC includes the two types of data, ASR types: this is the communications service(s) and the ACTL which is the location, a ACTL CLLI exists and I put this as a subtype of the CILLCode Class.
+What's not clear is the type of Node at the CC30 site.
+Is the location data in E,F,G,H,I,L,M,N,O,P,Q,R,S and T for the Site column Z?
+Or is it the ICSC CLLI data for the provider Node?  Is the node ENNI?
+Coloumns E, F, G, H, I, L, M and N is address data.
+Is this the address of the BLDG CLLI (column O)?
+O is the building CLLI
+P & Q the lat/long
+R & S the horizontal & vertical
+T the LATA
+U, V, W, X and Y the Ethernet connection available aat the site.
+Z the site type Customer, Colo 
+
+
