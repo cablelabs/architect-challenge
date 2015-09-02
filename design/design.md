@@ -1,5 +1,3 @@
-<p><markdown>
-#Markdown Live Editor#
 Initial modelling of domain using the two lit buildings csv files Analysis process: 
 
 - Create packages for domain classes and drawings - 
@@ -92,5 +90,14 @@ Topology Classes Names:
  - AccessServices
  - AccessCustomerTerminalLocation
 
-Location UML Model 
-</markdown></p>
+[Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationModel-01.jpeg)
+
+[Topology UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-TopologyModel-01.jpeg)
+
+-----------------------------
+Day 2
+
+ - review model
+ - add any missing classes, attributes, behavior and relationships
+ - Update model
+ - create RESTful API
