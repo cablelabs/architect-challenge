@@ -237,4 +237,29 @@ Day 3
  - I modeled to much of the domain for this exercise, I going to limit the VP RESTful API's to those in the CSV files
  - I'll update status through out the day
 
+ - Update models, missing some labels and cardinallity 
+
+
+I've figured out how to create the RESTful API from the model I created.
+
+I needed to add additional information to the relationships that are used in the API.
+Currently working on getting the first set of API's created, it took me some extra time since this was the first time I used VP to do this.
+
+Then I still need to use Swagger to generate the final documentation, again I have a learning curve to move through for Swagger.
+
+I'm going to keep working on it until I complete.
+I've been updating the design.md file with the same information.
+
+The amount of work will still take me the rest of today to complete.
+
+Updated Models, created branch of VP CableLabsRestAPI.vpp and API first cut
+
+[Location UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationModel-03.jpeg)
+
+[Topology UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-TopologyModel-05.jpeg)
+
+[ARC-SP UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-ARC-SPModel-02.jpeg)
+
+[LocationRESTfulAPI UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationRESTfulAPI-01.jpeg)
+
 
