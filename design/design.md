@@ -229,4 +229,12 @@ sample1.cvs:
  - U, V, W, X and Y the Ethernet connection available aat the site.
  - Z the site type Customer, Colo 
 
+Day 3
+ - Yesterday was a learning curve with VP and generating API
+ - Found VP example on how to use an existing UML Class model to create RESTful API
+ - This morning I'm working on getting the first API working, it does take me a bit of time on the first pass to get a tool working for me, but I'm getting through that now with VP and the RESTful API
+ - Next will be getting myself up to speed with Swagger, once I get the VP ResTful API's complete
+ - I modeled to much of the domain for this exercise, I going to limit the VP RESTful API's to those in the CSV files
+ - I'll update status through out the day
+
 
