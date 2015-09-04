@@ -262,4 +262,22 @@ Updated Models, created branch of VP CableLabsRestAPI.vpp and API first cut
 
 [LocationRESTfulAPI UML Model](https://github.com/vertmont/architect-challenge/blob/master/design/VP-UML-LocationRESTfulAPI-01.jpeg)
 
+Update
 
+I've been trying to understand how to use JSON to create more complex structures to support the UML models I've created.
+
+After talking with a long time coleage last night I was pointed at an existing set of JSON that does exactly that.
+
+[FHIR JSON Complex Data Types](www.hl7.org/implement/standards/fhir/datatypes.html)
+
+So the bottom line is I've not created the JSON from my UML at this point.
+I spent the time looking for a solution that would give me the complex JSON types.
+To complete the creation of the JSON code I would use the FHIR JSON model.
+
+Take a look at the UML models.
+My strength is in modeling complex telecommincations information systems and reactive systems used for fault, performace and root cause.
+I've not used JSON prior to this exercise and I'll continue to transform the UML to JSON using the FHIR model for my own benifit.
+
+Thanks for your consideration.
+
+Dan
