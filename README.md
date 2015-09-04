@@ -8,7 +8,7 @@ A challenge for architects that want to join our team. In order to be considered
 2. Clone your fork:
 
     ````
-    git clone https://github.com/<your-name>/architect-challenge.git
+    git clone https://github.com/YOUR-GITHUB-USERNAME/architect-challenge.git
     ````
 
 3. Complete the architect challenge described below (please see [Architect Task](#architect-task), [Deliverables](#deliverables), [Guidelines](#guidelines), and [On Complete](#on-complete) sections). Be sure to `git commit` your work as you go (see [Guidelines](#guidelines))
