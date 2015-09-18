@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "http://jsonschema.net/id",
+      "type": "integer"
+    },
+    "providerName": {
+      "id": "http://jsonschema.net/providerName",
+      "type": "string"
+    },
+    "address": {
+      "id": "http://jsonschema.net/address",
+      "type": "object",
+      "properties": {
+        "streetNum": {
+          "id": "http://jsonschema.net/address/streetNum",
+          "type": "integer"
+        },
+        "prefix": {
+          "id": "http://jsonschema.net/address/prefix",
+          "type": "string"
+        },
+        "streetName": {
+          "id": "http://jsonschema.net/address/streetName",
+          "type": "string"
+        },
+        "streetType": {
+          "id": "http://jsonschema.net/address/streetType",
+          "type": "string"
+        },
+        "suffix": {
+          "id": "http://jsonschema.net/address/suffix",
+          "type": "string"
+        },
+        "bldg": {
+          "id": "http://jsonschema.net/address/bldg",
+          "type": "string"
+        },
+        "city": {
+          "id": "http://jsonschema.net/address/city",
+          "type": "string"
+        },
+        "state": {
+          "id": "http://jsonschema.net/address/state",
+          "type": "string"
+        },
+        "zip": {
+          "id": "http://jsonschema.net/address/zip",
+          "type": "integer"
+        },
+        "zip4": {
+          "id": "http://jsonschema.net/address/zip4",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "icsc": {
+      "id": "http://jsonschema.net/icsc",
+      "type": "string"
+    },
+    "system": {
+      "id": "http://jsonschema.net/system",
+      "type": "string"
+    },
+    "bldgClli": {
+      "id": "http://jsonschema.net/bldgClli",
+      "type": "string"
+    },
+    "lata": {
+      "id": "http://jsonschema.net/lata",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http://jsonschema.net/lata/name",
+          "type": "string"
+        },
+        "code": {
+          "id": "http://jsonschema.net/lata/code",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "siteType": {
+      "id": "http://jsonschema.net/siteType",
+      "type": "string"
+    },
+    "providerCoordinates": {
+      "id": "http://jsonschema.net/providerCoordinates",
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "id": "http://jsonschema.net/providerCoordinates/latitude",
+          "type": "number"
+        },
+        "longitude": {
+          "id": "http://jsonschema.net/providerCoordinates/longitude",
+          "type": "number"
+        },
+        "horizontalCoord": {
+          "id": "http://jsonschema.net/providerCoordinates/horizontalCoord",
+          "type": "integer"
+        },
+        "verticalCoord": {
+          "id": "http://jsonschema.net/providerCoordinates/verticalCoord",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ethernet": {
+      "id": "http://jsonschema.net/ethernet",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/ethernet/0",
+        "type": "object",
+        "properties": {
+          "bandwidth": {
+            "id": "http://jsonschema.net/ethernet/0/bandwidth",
+            "type": "string"
+          },
+          "flag": {
+            "id": "http://jsonschema.net/ethernet/0/flag",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "additionalItems": false
+    },
+    "building": {
+      "id": "http://jsonschema.net/building",
+      "type": "string"
+    },
+    "enniNode": {
+      "id": "http://jsonschema.net/enniNode",
+      "type": "string"
+    },
+    "switchedEthMin": {
+      "id": "http://jsonschema.net/switchedEthMin",
+      "type": "string"
+    },
+    "switchedEthMax": {
+      "id": "http://jsonschema.net/switchedEthMax",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
