@@ -1,0 +1,44 @@
+{
+  "providerName": "PROVIDER ARKANSAS",
+  "address": {
+    "streetNum": 1,
+    "prefix": "E",
+    "streetName": "MAIN",
+    "streetType": "ST",
+    "city": "ALMA",
+    "state": "AR",
+    "zip": 72921
+  },
+  "icsc": "CC30",
+  "system": "KANSAS/ARKANSAS",
+  "bldgClli": "MLMAAR07",
+  "lata": {
+    "code": "555"
+  },
+  "siteType": "CUSTOMER",
+  "providerCoordinates": {
+    "latitude": 45.47672,
+    "longitude": -84.2194,
+    "horizontalCoord": 3811,
+    "verticalCoord": 7709
+  },
+  "ethernet": [
+    {
+      "bandwidth": "100M",
+      "flag": "Y"
+    },
+    {
+      "bandwidth": "10G",
+      "flag": "Y"
+    },
+    {
+      "bandwidth": "40G",
+      "flag": "Y"
+    },
+    {
+      "bandwidth": "100G",
+      "flag": "Y"
+    }
+  ],
+  "building": ""
+}
