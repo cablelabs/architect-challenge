@@ -1,0 +1,247 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.0.1",
+        "title": "Lit Building API"
+    },
+    "paths": {
+        "/lit/{id}": {
+            "get": {
+                "description": "returns a single lit building based on its ID\n",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of the lit building",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/LitBuilding"
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Invalid Id value"
+                    }
+                }
+            },
+            "put": {
+                "description": "updates a single lit building\n",
+                "consumes": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "the lit building entity in json format",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/LitBuilding"
+                        }
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of the lit building being updated",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successfully Updated Lit Building"
+                    },
+                    "404": {
+                        "description": "Invalid Id Value"
+                    },
+                    "405": {
+                        "description": "Invalid Input"
+                    }
+                }
+            },
+            "delete": {
+                "description": "deletes a single lit building based on its ID\n",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of the lit building",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    },
+                    "404": {
+                        "description": "Invalid Id value"
+                    }
+                }
+            }
+        },
+        "/lit/": {
+            "post": {
+                "description": "creates a new single lit building\n",
+                "consumes": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "the lit building entity in json format",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/LitBuilding"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Successfully Created Lit Building"
+                    },
+                    "405": {
+                        "description": "Invalid Input"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "LitBuilding": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "providerName": {
+                    "type": "string"
+                },
+                "address": {
+                    "$ref": "#/definitions/Address"
+                },
+                "icsc": {
+                    "type": "string"
+                },
+                "system": {
+                    "type": "string"
+                },
+                "bldgClli": {
+                    "type": "string"
+                },
+                "lata": {
+                    "$ref": "#/definitions/Lata"
+                },
+                "siteType": {
+                    "type": "string"
+                },
+                "providerCoordinates": {
+                    "$ref": "#/definitions/ProviderCoordinates"
+                },
+                "ethernet": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Ethernet"
+                    }
+                }
+            }
+        },
+        "ProviderCoordinates": {
+            "type": "object",
+            "properties": {
+                "latitude": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "longitude": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "horizontalCoord": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "verticalCoord": {
+                    "type": "integer",
+                    "format": "int64"
+                }
+            }
+        },
+        "Lata": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "code": {
+                    "type": "string"
+                }
+            }
+        },
+        "Address": {
+            "type": "object",
+            "properties": {
+                "streetNum": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "prefix": {
+                    "type": "string"
+                },
+                "streetName": {
+                    "type": "string"
+                },
+                "streetType": {
+                    "type": "string"
+                },
+                "suffix": {
+                    "type": "string"
+                },
+                "bldg": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "zip": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "zip4": {
+                    "type": "integer",
+                    "format": "int64"
+                }
+            }
+        },
+        "Ethernet": {
+            "type": "object",
+            "properties": {
+                "bandwidth": {
+                    "type": "string"
+                },
+                "flag": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
